@@ -1,0 +1,135 @@
+            body{
+                font-family:'Segoe UI', Arial, sans-serif;
+                background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+                height:100vh;
+                margin:0;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                color:white;
+                }
+                
+                /* Main container */
+                
+                .container{
+                width:520px;
+                max-width:90%;
+                text-align:center;
+                }
+                
+                /* Heading */
+                
+                h1{
+                margin-bottom:8px;
+                font-size:32px;
+                }
+                
+                .subtitle{
+                opacity:0.85;
+                margin-bottom:30px;
+                font-size:14px;
+                }
+                
+                /* Form Card */
+                
+                .form-card{
+                background:white;
+                color:black;
+                padding:35px;
+                border-radius:12px;
+                box-shadow:0 15px 40px rgba(0,0,0,0.35);
+                transition:transform 0.3s ease;
+                }
+                
+                .form-card:hover{
+                transform:translateY(-3px);
+                }
+                
+                /* Inputs */
+                
+                input{
+                width:100%;
+                padding:12px;
+                margin-bottom:15px;
+                border-radius:6px;
+                border:1px solid #ccc;
+                font-size:14px;
+                transition:0.2s;
+                outline:none;
+                }
+                
+                input:focus{
+                border-color:#0073e6;
+                box-shadow:0 0 6px rgba(0,115,230,0.3);
+                }
+                
+                /* Button */
+                
+                button{
+                width:100%;
+                padding:13px;
+                border:none;
+                background:linear-gradient(90deg,#0073e6,#005bb5);
+                color:white;
+                font-size:16px;
+                border-radius:6px;
+                cursor:pointer;
+                transition:all 0.3s ease;
+                }
+                
+                button:hover{
+                transform:scale(1.03);
+                box-shadow:0 5px 15px rgba(0,0,0,0.3);
+                }
+                
+                /* Info Section */
+                
+                .info{
+                margin-top:30px;
+                text-align:left;
+                font-size:14px;
+                }
+                
+                .info h2{
+                margin-bottom:10px;
+                }
+                
+                .info ul{
+                padding-left:18px;
+                line-height:1.6;
+                }
+                
+                /* Signature (PDF styling support if reused) */
+                
+                .signature{
+                margin-top:40px;
+                text-align:right;
+                }
+                
+                .signature img{
+                width:120px;
+                }
+                
+                /* Responsive */
+                
+                @media (max-width:600px){
+                
+                .container{
+                width:95%;
+                }
+                
+                .form-card{
+                padding:25px;
+                }
+                
+                h1{
+                font-size:26px;
+                }
+
+                .closing-text{
+                    font-size:18px;
+                    font-weight:bold;
+                    margin-top:20px;
+                    }
+                
+                }
